@@ -1,0 +1,26 @@
+.button-download-pdf {
+    margin: 10px;
+    background:#15b922;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.button-download-pdf:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.button-download-pdf div:nth-child(1) {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.button-download-pdf div:nth-child(2) {
+    margin-top: 5px;
+}

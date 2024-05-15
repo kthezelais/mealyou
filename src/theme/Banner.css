@@ -1,0 +1,53 @@
+.banner {
+    padding: 20px;
+    display: flex;
+    background-color: #2C98F0;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    height: 50px;
+    box-shadow: 0 0 0.5em grey;
+}
+
+.banner > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner > div > img {
+    width: 120px;
+    height: 35px;
+}
+
+.banner > div > div {
+    margin: 0px;
+}
+
+.button-drop-down-menu {
+    border: none;
+    background-color: unset;
+    margin: 0;
+    padding: 10px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.loading-spinner {
+    display: none;
+    animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

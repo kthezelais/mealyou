@@ -1,0 +1,161 @@
+.add-element-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#15b922;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 2.5em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.add-element-button:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.pop-up-file-upload {
+    display: none;
+}
+
+.div-parent-add-element-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    background-color: #818181ac;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.div-add-element-popup {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 70%;
+    width: 70%;
+}
+
+.title-add-element-popup {
+    flex: 1;
+    margin: 0;
+    width: 100%;
+}
+
+.title-add-element-popup p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.element-list {
+    flex: 6;
+    overflow-y: scroll;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.element-list p {
+    text-align: center;
+}
+
+.element {
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 50%;
+    height: 15px;
+    margin: 2px;
+    margin-right: 15px;
+    max-height: 15px;
+    min-width: 15px;
+    width: 15px;
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+}
+
+.element label {
+    overflow-x: hidden;
+    width: 200px;
+}
+
+.div-action-add-element-popup {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    border-top: 1px solid #4b4b4b60;
+}
+
+.add-element-popup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#2C98F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    font-size: 2.5em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.cancel-button, .validate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color:#2C98F0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+
+.validate-button {
+    margin-left: 5px;
+}
+
+.cancel-button:active, .validate-button:active {
+    background-color: #b6b5b593;
+}
+
+.div-text-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+}

@@ -1,0 +1,19 @@
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 25%;
+    height: 15px;
+    width: 15px;
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:checked {
+    background: #2C98F0;
+    outline: none;
+}
+
+.element label {
+    margin-left: 10px;
+}

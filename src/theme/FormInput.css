@@ -1,0 +1,158 @@
+.div-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 85%;
+    height: 100%;
+}
+
+
+
+/* Default elements style */
+
+.input-description-recipe {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border: solid 1px #4b4b4b9c;
+    color: #4b4b4b96;
+    width: 95%;
+    height: 50%;
+    overflow: scroll;
+    resize: none;
+}
+
+.label-input-description-recipe, .label-input-price-ingredient, .label-input-name {
+    color: #4b4b4b;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.label-input-description-recipe, .label-input-price-ingredient {
+    margin-top: 25px;
+}
+
+
+
+/* Placeholder browsers style adapatation */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #4b4b4b44;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #4b4b4b44;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #4b4b4b44;
+}
+
+
+
+/* Placeholder browsers on hover/focus style adapatation */
+
+:hover::placeholder, :focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #2C98F044;
+    opacity: 1; /* Firefox */
+}
+  
+:hover:-ms-input-placeholder, :focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #2C98F044;
+}
+
+:hover::-ms-input-placeholder, :focus::-ms-input-placeholder { /* Microsoft Edge */
+    color: #2C98F044;
+}
+
+
+
+/* label-input-name with wrong input */
+
+.label-input-name-error {
+    font-size: 1.2em;
+    width: 100%;
+    color: #fa20209c;
+}
+
+
+
+/* input-name/description-recipe with an input in wait */
+
+.input-name, .input-price-ingredient {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #4b4b4b9c;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-bottom: 1px solid #4b4b4b9c;
+}
+
+.input-name {
+    width: 90%;
+}
+
+.input-price-ingredient {
+    width: 80px;
+    text-align: left;
+}
+
+.input-name:focus, .input-name:hover, .input-price-ingredient:focus, .input-price-ingredient:hover {
+    border-bottom: 1px solid #2C98F0;
+    color: #2C98F0;
+    outline: none;
+}
+
+.input-description-recipe:focus, .input-description-recipe:hover {
+    border: solid 1px #2C98F0;
+    color: #2C98F0;
+    outline: none;
+}
+
+.input-name:focus, .input-name-error:focus, .input-description-recipe:focus, .input-price-ingredient:focus {
+    font-weight: bold;
+}
+
+
+
+/* input-name with a wrong input */
+
+.input-name-error {
+    font-size: 1.2em;
+    margin-top: 10px;
+    width: 90%;
+    color: #fa20209c;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-bottom: 1px solid #fa20209c;
+}
+
+.input-name-error:focus, .input-name-error:hover {
+    border-bottom: 1px solid #fa20209c;
+    color: #fa20209c;
+    outline: none;
+}
+
+.error-msg {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    color: #fa20209c;
+}
+
+
+
+/**
+ *         Mobile device keyboard management.
+ * /!\ Check also App.css file before any change /!\
+ */
+
+@media screen and (max-height: 450px) {
+    .div-form {
+        height: 100%;
+    }
+}

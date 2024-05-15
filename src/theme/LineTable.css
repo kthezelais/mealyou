@@ -1,0 +1,77 @@
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 25%;
+    height: 15px;
+    width: 15px;
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:checked {
+    background: #2C98F0;
+    outline: none;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+.tr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tbody, .tr, .td {
+    margin: 0;
+}
+
+.tbody .tr:nth-child(2n+1) {
+    background-color: #77757580;
+    color: #FFFFFF;
+}
+
+.tbody .tr .td:nth-child(1), .tbody .tr .td:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tbody .tr .td:nth-child(1) {
+    flex: 1;
+}
+
+.tbody .td:nth-child(2) {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.tbody .td:nth-child(3) {
+    flex: 1;
+}
+
+.remove-line-button {
+    margin: 5px 10px 5px 10px;
+    background:#f32424;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 0.9em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.remove-line-button:active {
+    font-weight: bold;
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.td input[type="text"] {
+    width: 85%;
+}

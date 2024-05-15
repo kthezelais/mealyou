@@ -1,0 +1,91 @@
+/* Import JSON File success message */
+
+.success-import-json-file {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    width: 92%;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    border: solid 1px #50865C;
+    opacity: 0.8;
+}
+
+.success-import-json-file, .success-import-json-file button {
+    background-color: #D4EDDA;
+    color: #50865C;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.success-import-json-file button {
+    border: none;
+}
+
+.success-import-json-file p:nth-child(1) {
+    text-align: right;
+    margin: 0%;
+    width: 89%;
+}
+
+.success-import-json-file p:nth-child(2) {
+    margin-top: 0%;
+}
+
+
+
+/* Import JSON File error message */
+
+.error-import-json-file {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    width: 92%;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    border: solid 1px #FF0000;
+    opacity: 0.8;
+}
+
+.error-import-json-file, .error-import-json-file button {
+    background-color: #F8D7DA;
+    color: #FF0000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.error-import-json-file button {
+    border: none;
+}
+
+.error-import-json-file p:nth-child(1) {
+    text-align: right;
+    margin: 0%;
+    width: 89%;
+}
+
+.error-import-json-file p:nth-child(2) {
+    margin-top: 0%;
+}
+
+
+
+/* Import JSON File error message resize */
+
+@media screen and (max-height: 450px) {
+    .error-import-json-file, .success-import-json-file {
+        height: 30%;
+    }
+}

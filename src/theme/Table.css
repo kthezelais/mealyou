@@ -1,0 +1,113 @@
+.table-5, .table-7, .table-6 {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.table-5, .table-7 {
+    height: 49%;
+}
+
+.table-6 {
+    height: 70%;
+}
+
+.table-5, .table-7, .table-6, .thead, .tr, .th {
+    margin: 0;
+}
+
+.tr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.thead .td:nth-child(2) {
+    display: flex;
+    justify-content: left;
+    flex: 1;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.thead .td:nth-child(2) {
+    flex: 2;
+}
+
+.remove-checked-button {
+    margin: 10px;
+    background:#f32424;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 1em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.remove-checked-button:active {
+    font-weight: bold;
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.remove-checked-button:disabled, .remove-checked-button:disabled:active {
+    background:#b6b5b593;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    border-radius: 7px;
+    pointer-events: none;
+    outline: none;
+	color:#5c5c5c93;
+}
+
+.add-new-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#15b922;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 2.5em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.add-new-button:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.div-add-new-button {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    margin-left: 15px;
+}
+
+
+/* Mobile device keyboard management for InputRecipeView */
+
+@media screen and (max-height: 475px) {
+    .table-5, .table-7 {
+        height: 45%;
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .table-5, .table-7 {
+        height: 33%;
+        margin-bottom: 0%;
+    }
+}

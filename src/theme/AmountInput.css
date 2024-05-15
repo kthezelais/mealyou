@@ -1,0 +1,8 @@
+.div-amount-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    color: #4b4b4b9c;
+    font-size: 1.1em;
+}

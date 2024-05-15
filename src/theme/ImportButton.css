@@ -1,0 +1,35 @@
+.button-element-list-is-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: dashed #2C98F0 3px;
+    border-radius: 40px;
+    margin: 4%;
+    padding: 0%;
+    height: 100%;
+    width: 90%;
+}
+
+.button-element-list-is-empty div:nth-child(1), .button-element-list-is-empty div:nth-child(3) {
+    text-align: center;
+}
+
+.button-element-list-is-empty div:nth-child(2) {
+    font-size: xx-large;
+    color: #2C98F0;
+}
+
+/* Ionic CSS parameters */
+.ion-button-import-element {
+    background: #2C98F0;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+
+.ion-button-import-element:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}

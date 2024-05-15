@@ -1,0 +1,104 @@
+.progressbar-form-input {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0%;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin: 0%;
+    flex: 3;
+    counter-reset: step;
+    width: 95%;
+    height: 45px;
+}
+
+.progressbar-form-input li, .progressbar-form-input p {
+    list-style-type: none;
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #2C98F0;
+}
+
+.progressbar-form-input li:before {
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    counter-increment: step 2;
+    line-height: 30px;
+    border: 2px solid #2C98F0;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.progressbar-form-input p {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5px;
+}
+
+.progressbar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex: 3;
+    counter-reset: step;
+    margin: 15px 0px 5px 0px;
+    width: 100%;
+}
+
+.progressbar li {
+    list-style-type: none;
+    flex: 1;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7d7d7d;
+}
+
+.progressbar li:before {
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 30px;
+    border: 2px solid #7d7d7d;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #7d7d7d;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progressbar li:first-child:after {
+    content: none;
+}
+
+.progressbar li.active, .progressbar-form-input li.active {
+    color: #2C98F0;
+}
+
+.progressbar li.active:before {
+    border-color: #2C98F0;
+}
+
+.progressbar li.active:after {
+    background-color: #2C98F0;
+}

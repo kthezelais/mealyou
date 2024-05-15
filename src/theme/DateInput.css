@@ -1,0 +1,64 @@
+.div-date-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 230px;
+    color: #4b4b4b9c;
+    font-size: 1.4em;
+}
+
+.label-date-input {
+    width: 100%;
+}
+
+/* date-input with an input in wait */
+.date-input {
+    font-size: 0.9em;
+    width: min-content;
+    color: #4b4b4b9c;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-bottom: 1px solid #4b4b4b9c;
+}
+
+.date-input:focus, .date-input:hover {
+    border-bottom: 1px solid #2C98F0;
+    color: #2C98F0;
+    outline: none;
+    text-align: center;
+}
+
+.date-input:focus, .date-input-error:focus {
+    font-weight: bold;
+}
+
+/* date-input with a wrong input */
+.div-date-input-error {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 230px;
+    color: #fa20209c;
+    font-size: 1.4em;
+}
+
+.date-input-error {
+    font-size: 0.9em;
+    width: min-content;
+    color: #fa20209c;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-bottom: 1px solid #fa20209c;
+}
+
+.date-input-error:focus, .date-input-error:hover {
+    border-bottom: 1px solid #fa20209c;
+    color: #fa20209c;
+    outline: none;
+    text-align: center;
+}
+
+.error-msg {
+    font-size: 0.7em;
+    color: #fa20209c;
+}

@@ -1,0 +1,71 @@
+.container-1, .container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+    height: 80%;
+}
+
+.container-2 {
+    height: 31%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+}
+
+.container-5 {
+    margin: 0;
+}
+
+div {
+    margin: 15px 15px;
+}
+
+.container-bis {
+    margin: 0;
+    padding: 0;
+    height: 33%;
+    width: 100%;
+}
+  
+.container-2-bis, .container-4 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
+/* Remove all scroll bar on each view */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Remove orange border on active / focus */
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+}
+
+
+/* Mobile device keyboard management for InputRecipeView */
+
+@media screen and (max-height: 450px) {
+    .container-2 {
+        height: 57%;
+        margin-bottom: 0%;
+    }
+    
+    .container-bis, .container-2-bis, .container-5 {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+.div-search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20% 5% 20%;
+}
+
+/* input-name-search-bar with an input in wait */
+
+.div-search-bar i {
+    margin-right: 5px;
+}
+
+.div-search-bar i, .input-name-search-bar {
+    color: #4b4b4b9c;
+}
+
+#remove-keyword {
+    color: #f32424;
+}
+
+.input-name-search-bar {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-bottom: 1px solid #4b4b4b9c;
+}
+
+.input-name-search-bar {
+    width: 90%;
+}
+
+.div-search-bar:hover > .input-name-search-bar,
+.div-search-bar:hover > i,
+.div-search-bar:hover > .input-name-search-bar::placeholder,
+.input-name-search-bar:focus {
+    color: #2C98F0;
+}
+
+.div-search-bar:hover > .input-name-search-bar::placeholder {
+    opacity: 0.3;
+}
+
+.div-search-bar:hover > .input-name-search-bar,
+.input-name-search-bar:focus {
+    border-bottom: 1px solid #2C98F0;
+    outline: none;
+}
+
+.input-name-search-bar:focus {
+    font-weight: bold;
+}

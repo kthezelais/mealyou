@@ -1,0 +1,83 @@
+.div-recipe-line-action-button {
+    display: flex;
+}
+
+.div-details-recipe {
+    margin: 0% 5% 0% 5%;
+}
+
+.recipe-line {
+    margin: 0;
+}
+
+.recipe-line header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#15b922;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 1.8em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.more-button:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.remove-recipe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f32424;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 1em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.remove-recipe-button:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}
+
+.edit-recipe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#ffd931;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.3em grey;
+    border-radius: 7px;
+    font-size: 1em;
+    outline: none;
+	color:#FFFFFF;
+}
+
+.edit-recipe-button:active {
+    box-shadow: -0.1em -0.1em 0.3em grey;
+}

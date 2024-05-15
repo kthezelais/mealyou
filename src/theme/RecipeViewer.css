@@ -1,0 +1,77 @@
+.div-recipe-viewer {
+    height: 65%;
+    margin: 0% 5% 0% 5%;
+    overflow: scroll;
+    resize: none;
+}
+
+.div-recipe-viewer > p {
+    margin: 0;
+    text-align: center;
+}
+
+.parent-import-button-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.import-button-component {
+    height: 50%;
+    width: 70%;
+    margin: 0;
+}
+
+/* Mobile device keyboard management for InputRecipeView */
+
+
+@media screen and (max-height: 700px) {
+    .div-recipe-viewer {
+        height: 63%;
+    }
+}
+
+@media screen and (max-height: 655px) {
+    .div-recipe-viewer {
+        height: 60%;
+    }
+}
+
+@media screen and (max-height: 610px) {
+    .div-recipe-viewer {
+        height: 57%;
+    }
+}
+
+@media screen and (max-height: 565px) {
+    .div-recipe-viewer {
+        height: 54%;
+    }
+}
+
+@media screen and (max-height: 525px) {
+    .div-recipe-viewer {
+        height: 51%;
+    }
+}
+
+@media screen and (max-height: 495px) {
+    .div-recipe-viewer {
+        height: 48%;
+    }
+}
+
+@media screen and (max-height: 470px) {
+    .div-recipe-viewer {
+        height: 45%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .div-recipe-viewer {
+        height: 55%;
+    }
+}

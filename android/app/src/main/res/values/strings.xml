@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">mealyou</string>
+    <string name="title_activity_main">mealyou</string>
+    <string name="package_name">com.thezelais.mealyou</string>
+    <string name="custom_url_scheme">com.thezelais.mealyou</string>
+</resources>
